@@ -262,4 +262,13 @@ section{
     color: var(--text-color);
     font-weight: 800;
     text-align: center;
+} 
+
+@media (max-width: 800px){
+    .plan{
+        grid-template-columns: 1fr;
+    }
+    .form-content{
+        grid-template-columns: 1fr;
+    }
 }
