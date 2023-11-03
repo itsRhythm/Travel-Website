@@ -10,7 +10,8 @@ submitBtn.addEventListener("click", function(){
     <p>Your reservation request for <b>${category.value}</b> has been accepted</p>
     <p>You will recieve a confirmation email at <i> ${email.value}</i></p>`
 
-    person.value = ""
-    email.value = ""
-    category.value = ""
+    // person.value = ""
+    // email.value = ""
+    // category.value = ""
+    document.getElementById("form-id").reset()
 })
